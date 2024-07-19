@@ -1,10 +1,10 @@
-const firstname: string = 'Kewq'
+const firstname: string = 'กฤตภัทร์ กลิ่นชื่น' 
 let y: number = 10
 y = 20
-let ต้องการกลับบ้าน: boolean = true
+let wantToGoHome: boolean = true
 console.log (firstname)
 console.log (y)
-console.log (ต้องการกลับบ้าน)
+console.log (wantToGoHome)
 
 let a: number = 1200
 let b: number = 9
