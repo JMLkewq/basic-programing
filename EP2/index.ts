@@ -21,4 +21,20 @@ function grade(homework: number, midterm: number, final: number) {
         return 'สอบผ่าน'
     }
 }
-console.log(grade(15, 16, 19));
+console.log(grade(15, 16, 19))
+
+function grade(homework: number, midterm: number, final: number) {
+    let score: number = homework + midterm + final
+    if (score < 50) {
+        return 'เกรด F'
+    }else if (score < 60 ){
+        return 'เกรด D'
+    }else if (score <70 ){
+        return 'เกรด C'
+    }else if (score < 80){
+        return 'เกรด b'
+}else{
+    return 'เกรด A'}
+
+}
+console.log(grade(30, 20, 26))
