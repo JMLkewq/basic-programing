@@ -37,11 +37,11 @@ function st(fname: string, sname: string, tname: string) {
 }
     st('mix', 'zane', 'forth')
 
-    function st(fname: string, sname: string, tname: string) {
+function st(fname: string, sname: string, tname: string) {
         if (fname === 'mix' || sname === 'zane' && tname === 'forth' ) {
             console.log('พร้อมเรียน')
-    }else{
+}else{
             console.log('ยังไม่พร้อม')
-         }
     }
-        st('mix', 'zane', 'forth')
+}
+    st('mix', 'zane', 'forth')
