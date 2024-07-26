@@ -9,7 +9,7 @@ function helloName(Name: string) {
        console.log("Kewq")
    }    
     
-   helloName('Kewq')
+console.log(helloName('Kewq'))
    
 function getPi() {
        return 3.14
