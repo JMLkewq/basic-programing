@@ -19,3 +19,11 @@ function getPi() {
    
     console.log(getPi())
     
+function st(fname: string, sname: string) {
+if (fname === 'Kewq' || sname === 'Kylian') {
+    console.log('เริ่มสอน')
+}else{
+    console.log('ไม่สอน')
+ }
+}
+st('Kewq', 'Kylian')
