@@ -13,4 +13,4 @@ function BMI(height: number, weight: number ) {
         
 }
 
-console.log(BMI(176, 108));
+console.log(BMI(176, 108))
