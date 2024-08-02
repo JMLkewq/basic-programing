@@ -63,3 +63,23 @@ function fixeddecimal(n: number){
 
 }
 console.log(fixeddecimal(1000))
+
+const str: string = "Krittaphat"
+
+console.log(str.length)
+
+function checkStringLenth(Kewq: string){
+    const string = "krittaphat"
+    console.log(Kewq.length)
+
+    function checkStringLenth(Kewq: string){
+        const x = Kewq.length
+        return x
+    }  
+      console.log(checkStringLenth('krittaphat'))
+    
+    
+    
+}
+
+
