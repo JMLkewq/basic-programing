@@ -82,4 +82,16 @@ function checkStringLenth(Kewq: string){
     
 }
 
+function Kewq(massage: string, index: number) {
+    return massage.charAt(index)
+}
+console.log(Kewq('เอากูลงไปปปป',9))
 
+unction checkStrIndex(str: string, search: string){
+    if (str.includes(search)){
+     console.log(str.indexOf(search))
+    }else{
+        console.log('ไม่พบคำที่ค้นหา')
+    }
+}
+checkStrIndex('อยากกลับบ้าน','บ้าน')
