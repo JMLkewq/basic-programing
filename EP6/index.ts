@@ -87,11 +87,12 @@ for (let i = 0; i< freindName.length; i++){
     }
 }
 
-const quality: string[] = ['1' , '2' , '3' , '4' , '5' ,'6' , '7' , '8' , '9' , '10' ]
+const quality: number[] = [1 , 2 , 3 , 4 , 5 ,6 , 7 , 8 , 9 , 10 ]
 
 for (let i = 0; i< quality.length; i++){
-    if(quality[i] === '3' , '5' , '7') {
-
-    console.log(quality.slice(0))
+    if(quality[i] === 3 || quality[i] === 5 || quality[i] === 7 ) {
+        quality[i] = 0
     }
 }
+
+console.log(quality)
