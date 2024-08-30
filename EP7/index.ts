@@ -57,3 +57,17 @@ console.log("เรียง ก - ฮ: ", friendsNameArray)
 friendsNameArray.reverse()
 
 console.log("เรียง ฮ - ก: ", friendsNameArray)
+
+const me = {
+    firstName: 'Krittaphat',
+    lastname: 'Klinchuen',
+    age: 19 ,
+    gender: 'male' ,
+    birthday: '19/08/2005' ,
+    tel: '0926182002' ,
+    address: 'Samutprakaarn Thailand' ,
+
+
+
+
+}
