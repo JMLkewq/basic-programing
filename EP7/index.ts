@@ -64,8 +64,8 @@ const me = {
     age: 19 ,
     gender: 'male' ,
     birthday: '19/08/2005' ,
-    tel: '0926182002' ,
-    address: 'Samutprakaarn Thailand' ,
+    tel: '11-109-9876' ,
+    address: 'Paris' ,
 
 
 
