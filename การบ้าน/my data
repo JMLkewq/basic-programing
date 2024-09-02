@@ -1,0 +1,14 @@
+const me = {
+    Name: 'Nicolas El pacino',
+    address: '76/84',
+    villageNo: '3',
+    road: 'spagetti pizza' ,
+    subdistrict: 'san polo' ,
+    provice: 'venice' ,
+    zipCode: '2054119' ,
+    tel: '1117-523-029' ,
+    email: 'nicolaselpa@gmail.co.th'
+    
+
+
+}
