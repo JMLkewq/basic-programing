@@ -1029,6 +1029,16 @@ for (let i = 0; i < database.length; i++) {
 
 console.log('filter with for loop:', covidProvince)
  
+
+
+
+
+
+
+
+
+
+ 
 const news = {
     "status": "success",
     "totalResults": 2373,
